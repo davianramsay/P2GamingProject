@@ -3,15 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeApp", "SmokeApp\SmokeApp.csproj", "{DFEC70F1-1506-453A-89DE-E49CC6BFB406}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmokeApp", "SmokeApp\SmokeApp.csproj", "{DFEC70F1-1506-453A-89DE-E49CC6BFB406}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeAppBusinessLogic", "SmokeAppBusinessLogic\SmokeAppBusinessLogic.csproj", "{B84EDFF9-F2F1-4BD0-9E61-CA5C0B5947C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmokeAppBusinessLogic", "SmokeAppBusinessLogic\SmokeAppBusinessLogic.csproj", "{B84EDFF9-F2F1-4BD0-9E61-CA5C0B5947C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeAppModel", "SmokeAppModel\SmokeAppModel.csproj", "{985591ED-5E0A-4063-B547-534EF029E457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmokeAppModel", "SmokeAppModel\SmokeAppModel.csproj", "{985591ED-5E0A-4063-B547-534EF029E457}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeAppStorage", "SmokeAppStorage\SmokeAppStorage.csproj", "{D6ECAB76-7ECA-41A8-A38F-FB812BC5617B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmokeAppStorage", "SmokeAppStorage\SmokeAppStorage.csproj", "{D6ECAB76-7ECA-41A8-A38F-FB812BC5617B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeAppTest", "SmokeAppTest\SmokeAppTest.csproj", "{C9345EC1-2C16-4BFC-A098-AEBF69377839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmokeAppTest", "SmokeAppTest\SmokeAppTest.csproj", "{C9345EC1-2C16-4BFC-A098-AEBF69377839}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SmokeAppAngularFE", "SmokeAppAngularFE\", "{1DB7F911-1992-4E91-9E8E-369D183E3F11}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52763"
+		Debug.AspNetCompiler.PhysicalPath = "SmokeAppAngularFE\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52763\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52763"
+		Release.AspNetCompiler.PhysicalPath = "SmokeAppAngularFE\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52763\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52763"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +59,10 @@ Global
 		{C9345EC1-2C16-4BFC-A098-AEBF69377839}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9345EC1-2C16-4BFC-A098-AEBF69377839}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9345EC1-2C16-4BFC-A098-AEBF69377839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB7F911-1992-4E91-9E8E-369D183E3F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB7F911-1992-4E91-9E8E-369D183E3F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB7F911-1992-4E91-9E8E-369D183E3F11}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB7F911-1992-4E91-9E8E-369D183E3F11}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
